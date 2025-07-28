@@ -1,0 +1,25 @@
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+*.log
+
+# Configs locales o archivos de entorno
+.env
+*.env
+
+# Archivos binarios o ejecutables del WebDriver
+chromedriver
+chromedriver.exe
+chromedriver.log
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de usuario
+*.swp
+*.bak
+
+# Carpetas de IDEs (opcional)
+.vscode/
+.idea/
