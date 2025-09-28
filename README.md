@@ -1,27 +1,21 @@
 # youtube-mp3-bot
 
-🎵 Script en Python que automatiza la descarga de audio MP3 desde enlaces de YouTube usando Selenium.
+Bot en Python que automatiza la descarga de audio en formato MP3 desde videos de YouTube mediante Selenium.
 
-## ¿Qué hace?
+## 📋 Funcionalidades
 
-- Lee enlaces de un archivo `.txt`
-- Extrae automáticamente el ID de cada video
-- Abre un sitio web de conversión (`utomp3.com`)
-- Automatiza clics para convertir y descargar el audio
-- Guarda el MP3 en la carpeta del proyecto
+- Lee enlaces de YouTube desde un archivo `.txt`
+- Extrae el ID del video
+- Usa un sitio de conversión (por ejemplo `utomp3.com`) y maneja clics automáticos para convertir y descargar el MP3
+- Guarda los archivos en carpeta de salida
 
-## Tecnologías usadas
+## 🛠 Requisitos
 
-- Python 🐍
-- Selenium (automatización de navegador)
-- Regex para extraer IDs de YouTube
-- WebDriver (Chrome)
+- Python 3.7+
+- Selenium (`pip install -r requirements.txt`)
+- Chromedriver (o WebDriver compatible) en tu PATH
 
-## Requisitos
-
-- Python 3.7 o superior
-- `chromedriver` disponible en tu PATH
-- Instala dependencias con:
+## 🚀 Uso
 
 ```bash
-pip install -r requirements.txt
+python youtube_mp3_bot.py enlaces_youtube.txt
