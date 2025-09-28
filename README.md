@@ -19,3 +19,15 @@ Bot en Python que automatiza la descarga de audio en formato MP3 desde videos de
 
 ```bash
 python youtube_mp3_bot.py enlaces_youtube.txt
+````
+
+*Ejemplo de enlaces_youtube.txt:*
+
+```
+https://www.youtube.com/watch?v=abcd1234
+https://youtu.be/wxyz5678
+```
+
+## ⚠️ Advertencia legal
+
+Este proyecto es solo con fines educativos. El descargado de contenido de YouTube puede violar los términos de servicio. Usa esta herramienta bajo tu propia responsabilidad y respetando derechos de autor.
